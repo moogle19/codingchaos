@@ -13,3 +13,10 @@ Teilaufgaben
 3. Erstellt einen neuen Branch namens "aufgabe00"
 4. Fügt eine readme.md mit beliebigem Inhalt hinzu
 5. Erzeugt einen Pull-Request gegen dieses Repository
+
+
+Beispiel
+--------
+
+Eine Beispiellösung ist hier zu finden:
+https://github.com/CTreffOS/codingchaos/pull/4
