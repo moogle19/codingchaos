@@ -33,7 +33,7 @@ $RECYCLE.BIN/
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
 
-*.iml
+aufgabe01/aufgabe01.iml
 
 ## Directory-based project format:
 .idea/
