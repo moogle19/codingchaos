@@ -15,8 +15,9 @@ fn main() {
         let msg = message.unwrap();
         println!("{}", msg.into_string());
         if let Some(m) = msg.suffix {
-            if m.contains("!say") {
+            if m == "!say" {
                 server.send_privmsg("#codingchaos", "hello!");
+                server.send_privmsg("#codingchaos", "Parteeeey \\o/!");
             }
         }
     }
