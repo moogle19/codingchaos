@@ -55,18 +55,20 @@ public class CodingChaos_01 {
         }
         
         writer.write("JOIN " + channel + "\r\n");
+           writer.write("PRIVMSG " + channel + "moin\r\n");
+         
         writer.flush( );
-        System.out.println("TEST");
         while ((line = reader.readLine( )) != null) {
             System.out.println(line);
             
-            if (line.toLowerCase( ).startsWith("PING ")) {
-                writer.write("PONG " + channel + "\r\n");
+            if (line.toLowerCase( ).contains("PING")) {
+                writer.write("PONG " + line.substring(5) + "\r\n");
+                writer.write("PRIVMSG " + channel + "\r\n");
                 writer.flush( );
             }
             
-            if (line.toLowerCase( ).startsWith("!say ")) {
-                writer.write("hello!" + "\r\n");
+            if (line.toLowerCase( ).contains("!say")) {
+                writer.write("PRIVMSG " + channel + " :hello!\r\n");
                 writer.flush( );
             }
         }
