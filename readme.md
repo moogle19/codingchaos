@@ -27,6 +27,7 @@ werden:
 
  - Java
  - C
+ - C++ (no .NET!!!)
  - Python
  - Ruby
  - PHP
