@@ -19,7 +19,7 @@ describe 'Fizzbuzz' do
 
     it 'mod X expect Fizz' do
       f = Fizzbuzz.new
-      expect(f.render(2)).to eq(nil)
+      expect(f.render(2)).to eq("2")
     end
   end
 
@@ -38,6 +38,19 @@ describe 'Fizzbuzz' do
     it 'FizzBuzz' do
       f = Fizzbuzz.new
       f.render_and_print(15)
+    end
+
+    it 'Zahl' do
+      f = Fizzbuzz.new
+      f.render_and_print(2)
+    end
+
+    it 'Big Test' do
+      f = Fizzbuzz.new
+
+      (0..100).each do |i|
+        f.render_and_print(i)
+      end
     end
   end
 end
