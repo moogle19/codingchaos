@@ -22,7 +22,7 @@ while True:
             s.send("SAY Hello!\r\n")
             s.send("SAY I will leave now!\r\n")
             s.close()
-            print 'I Quit'
+            print 'I saw I spoke I Quit'
             break
         line=string.rstrip(lines[0])
         line=string.split(lines[0])
