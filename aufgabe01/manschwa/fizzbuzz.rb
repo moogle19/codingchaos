@@ -1,7 +1,7 @@
 puts "FizzBuzz"
 puts "================================"
 
-num = -1
+num = ARGV[0].to_i
 while num < 0
   puts "Please enter a  number: "
   num = gets.to_i
