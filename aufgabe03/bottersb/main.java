@@ -19,17 +19,12 @@ import java.util.ArrayList;
  */
 public class CodingChaos_01 {
 
-    static ArrayList a;
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) throws IOException {
        
         String server = "irc.freenode.net";
         String channel = "#codingchaos";
         int port = 6667;
         String nick = "bottersb";
-        String servername = "";
         String realname = "Benny";
         
         Socket socket = new Socket(server, port);
@@ -55,8 +50,6 @@ public class CodingChaos_01 {
         }
         
         writer.write("JOIN " + channel + "\r\n");
-           writer.write("PRIVMSG " + channel + "moin\r\n");
-         
         writer.flush( );
         while ((line = reader.readLine( )) != null) {
             System.out.println(line);
