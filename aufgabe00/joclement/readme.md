@@ -13,6 +13,7 @@ Teilaufgaben
 3. Fügt eine readme.md mit beliebigem Inhalt hinzu
 4. Erzeugt einen Pull-Request gegen dieses Repository
 
+TESTA/dkj a;kfj sadkj ;kdja ;lksj asfj aklj ;
 
 Beispiel
 --------
