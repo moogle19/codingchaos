@@ -28,5 +28,8 @@ werden:
  - Java
  - C
  - Python
+ - Ruby
+ - PHP
+ - Rust
 
 Alles andere Bedarf eine kurze Rücksprache mit der Jury.
