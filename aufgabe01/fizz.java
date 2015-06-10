@@ -15,7 +15,7 @@ public class fizz {
 				System.out.println("Buzz");
 			}
 			else{//nichts
-				System.out.println(zahl);
+				System.out.println(i);
 			}
 			
 		}
