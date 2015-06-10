@@ -27,6 +27,10 @@ werden:
 
  - Java
  - C
+ - C++ (no .NET!!!)
  - Python
+ - Ruby
+ - PHP
+ - Rust
 
 Alles andere Bedarf eine kurze Rücksprache mit der Jury.
